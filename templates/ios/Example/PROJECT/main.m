@@ -1,17 +1,17 @@
 //
 //  main.m
-//  templates/
+//  PROJECT
 //
-//  Created by 549411835@qq.com on 06/05/2019.
-//  Copyright (c) 2019 549411835@qq.com. All rights reserved.
+//  Created by PROJECT_OWNER on TODAYS_DATE.
+//  Copyright (c) TODAYS_YEAR PROJECT_OWNER. All rights reserved.
 //
 
 @import UIKit;
-#import "LWBAppDelegate.h"
+#import "CPDAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([LWBAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([CPDAppDelegate class]));
     }
 }

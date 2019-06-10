@@ -1,14 +1,14 @@
 //
-//  LWBAppDelegate.m
-//  templates/
+//  CPDAppDelegate.m
+//  PROJECT
 //
-//  Created by 549411835@qq.com on 06/05/2019.
-//  Copyright (c) 2019 549411835@qq.com. All rights reserved.
+//  Created by PROJECT_OWNER on TODAYS_DATE.
+//  Copyright (c) TODAYS_YEAR PROJECT_OWNER. All rights reserved.
 //
 
-#import "LWBAppDelegate.h"
+#import "CPDAppDelegate.h"
 
-@implementation LWBAppDelegate
+@implementation CPDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

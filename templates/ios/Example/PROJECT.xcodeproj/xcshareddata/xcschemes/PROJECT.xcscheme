@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "templates/_Example.app"
-               BlueprintName = "templates/_Example"
-               ReferencedContainer = "container:templates/.xcodeproj">
+               BuildableName = "PROJECT_Example.app"
+               BlueprintName = "PROJECT_Example"
+               ReferencedContainer = "container:PROJECT.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "templates/_Tests.xctest"
-               BlueprintName = "templates/_Tests"
-               ReferencedContainer = "container:templates/.xcodeproj">
+               BuildableName = "PROJECT_Tests.xctest"
+               BlueprintName = "PROJECT_Tests"
+               ReferencedContainer = "container:PROJECT.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "templates/_Example.app"
-            BlueprintName = "templates/_Example"
-            ReferencedContainer = "container:templates/.xcodeproj">
+            BuildableName = "PROJECT_Example.app"
+            BlueprintName = "PROJECT_Example"
+            ReferencedContainer = "container:PROJECT.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "templates/_Example.app"
-            BlueprintName = "templates/_Example"
-            ReferencedContainer = "container:templates/.xcodeproj">
+            BuildableName = "PROJECT_Example.app"
+            BlueprintName = "PROJECT_Example"
+            ReferencedContainer = "container:PROJECT.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "templates/_Example.app"
-            BlueprintName = "templates/_Example"
-            ReferencedContainer = "container:templates/.xcodeproj">
+            BuildableName = "PROJECT_Example.app"
+            BlueprintName = "PROJECT_Example"
+            ReferencedContainer = "container:PROJECT.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

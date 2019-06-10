@@ -1,21 +1,13 @@
 //
-//  CPDBaseViewController.h
-//  XXXPlatform
+//  CPDViewController.h
+//  PROJECT
 //
 //  Created by PROJECT_OWNER on TODAYS_DATE.
-//  Copyright © TODAYS_YEAR PROJECT_OWNER. All rights reserved.
+//  Copyright (c) TODAYS_YEAR PROJECT_OWNER. All rights reserved.
 //
 
-// import分组次序：Frameworks、Services、UI
-#import <UIKit/UIKit.h>
-#import "CPDXXXBaseViewController.h"
-NS_ASSUME_NONNULL_BEGIN
+@import UIKit;
 
-/**
- * 
- */
-@interface CPDBaseViewController : CPDXXXBaseViewController
+@interface CPDViewController : UIViewController
 
 @end
-
-NS_ASSUME_NONNULL_END
