@@ -13,9 +13,11 @@ module Pod
 
     def perform
 
-      keep_demo = configurator.ask_with_answers("Would you like to include a demo application with your library", ["Yes", "No"]).to_sym
+#      keep_demo = configurator.ask_with_answers("Would you like to include a demo application with your library", ["Yes", "No"]).to_sym
+      keep_demo = "Yes"
 
-      framework = configurator.ask_with_answers("Which testing frameworks will you use", ["Specta", "Kiwi", "None"]).to_sym
+#      framework = configurator.ask_with_answers("Which testing frameworks will you use", ["Specta", "Kiwi", "None"]).to_sym
+     framework = "None"
       case framework
         when :specta
           configurator.add_pod_to_podfile "Specta"
@@ -35,7 +37,8 @@ module Pod
           configurator.set_test_framework("xctest", "m", "ios")
       end
 
-      snapshots = configurator.ask_with_answers("Would you like to do view based testing", ["Yes", "No"]).to_sym
+#      snapshots = configurator.ask_with_answers("Would you like to do view based testing", ["Yes", "No"]).to_sym
+      snapshots = "No"
       case snapshots
         when :yes
           configurator.add_pod_to_podfile "FBSnapshotTestCase"
@@ -52,17 +55,17 @@ module Pod
           end
       end
 
-      prefix = nil
+      prefix = "UCAR"
 
-      loop do
-        prefix = configurator.ask("What is your class prefix")
-
-        if prefix.include?(' ')
-          puts 'Your class prefix cannot contain spaces.'.red
-        else
-          break
-        end
-      end
+#      loop do
+#        prefix = configurator.ask("What is your class prefix")
+#
+#        if prefix.include?(' ')
+#          puts 'Your class prefix cannot contain spaces.'.red
+#        else
+#          break
+#        end
+#      end
 
       Pod::ProjectManipulator.new({
         :configurator => @configurator,

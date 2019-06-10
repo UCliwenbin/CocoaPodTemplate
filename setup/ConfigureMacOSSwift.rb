@@ -12,9 +12,10 @@ module Pod
     end
 
     def perform
-      keep_demo = configurator.ask_with_answers("Would you like to include a demo application with your library", ["Yes", "No"]).to_sym
-
-      framework = configurator.ask_with_answers("Which testing frameworks will you use", ["Quick", "None"]).to_sym
+#      keep_demo = configurator.ask_with_answers("Would you like to include a demo application with your library", ["Yes", "No"]).to_sym
+      keep_demo = "Yes"
+#      framework = configurator.ask_with_answers("Which testing frameworks will you use", ["Quick", "None"]).to_sym
+      framework = "None"
       case framework
         when :quick
           configurator.add_pod_to_podfile "Quick', '~> 1.2.0"
