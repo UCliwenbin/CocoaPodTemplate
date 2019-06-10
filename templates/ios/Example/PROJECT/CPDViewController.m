@@ -1,26 +1,26 @@
 //
-//  CPDBaseViewController.m
-//  XXXPlatform
+//  CPDViewController.m
+//  PROJECT
 //
 //  Created by PROJECT_OWNER on TODAYS_DATE.
-//  Copyright © TODAYS_YEAR PROJECT_OWNER. All rights reserved.
+//  Copyright (c) TODAYS_YEAR PROJECT_OWNER. All rights reserved.
 //
 
-// import分组次序：Frameworks、Services、UI
-#import "CPDBaseViewController.h"
-#pragma mark - @class
+#import "CPDViewController.h"
 
-#pragma mark - 常量
-
-#pragma mark - 枚举
-
-@interface CPDBaseViewController ()
+@interface CPDViewController ()
 
 #pragma mark - 私有属性
 
 @end
 
-@implementation CPDBaseViewController
+@implementation CPDViewController
+
+#pragma mark - @class
+
+#pragma mark - 常量
+
+#pragma mark - 枚举
 
 #pragma mark - Life cycle
 
@@ -91,7 +91,6 @@
 }
 
 #pragma mark - Getters and Setters
-
 
 
 @end
