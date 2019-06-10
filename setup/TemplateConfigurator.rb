@@ -76,8 +76,7 @@ module Pod
         when :macos
           ConfigureMacOSSwift.perform(configurator: self)
         when :ios
-#          framework = self.ask_with_answers("What language do you want to use?", ["Swift", "ObjC"]).to_sym
-          framework = "ObjC"
+          framework = self.ask_with_answers("What language do you want to use?", ["Swift", "ObjC"]).to_sym
           case framework
             when :swift
               ConfigureSwift.perform(configurator: self)
