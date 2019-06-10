@@ -1,29 +1,97 @@
 //
-//  CPDViewController.m
-//  PROJECT
+//  CPDBaseViewController.m
+//  XXXPlatform
 //
 //  Created by PROJECT_OWNER on TODAYS_DATE.
-//  Copyright (c) TODAYS_YEAR PROJECT_OWNER. All rights reserved.
+//  Copyright © TODAYS_YEAR PROJECT_OWNER. All rights reserved.
 //
 
-#import "CPDViewController.h"
+// import分组次序：Frameworks、Services、UI
+#import "CPDBaseViewController.h"
+#pragma mark - @class
 
-@interface CPDViewController ()
+#pragma mark - 常量
+
+#pragma mark - 枚举
+
+@interface CPDBaseViewController ()
+
+#pragma mark - 私有属性
 
 @end
 
-@implementation CPDViewController
+@implementation CPDBaseViewController
 
-- (void)viewDidLoad
-{
+#pragma mark - Life cycle
+
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [self configureNavigationbar];
+    [self createSubViews];
+    [self createSubViewsConstraints];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
 }
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+    
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    
+}
+
+- (void)dealloc {
+    NSLog(@"%@ - dealloc",NSStringFromClass([self class]));
+}
+
+#pragma mark - Events
+
+#pragma mark - UITextFieldDelegate
+
+#pragma mark - UITableViewDataSource
+
+#pragma mark - UITableViewDelegate
+
+#pragma mark - UIOtherComponentDelegate
+
+#pragma mark - Custom Delegates
+
+#pragma mark - Public Methods
+
+#pragma mark - Private Methods
+// 配置导航栏
+- (void)configureNavigationbar {
+    
+}
+
+// 添加子视图
+- (void)createSubViews {
+    
+}
+
+// 添加约束
+- (void)createSubViewsConstraints {
+    
+}
+
+#pragma mark - Getters and Setters
+
+
 
 @end
