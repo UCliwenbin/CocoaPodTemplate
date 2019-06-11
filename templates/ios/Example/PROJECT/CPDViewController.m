@@ -14,13 +14,13 @@
 
 @end
 
-@implementation CPDViewController
-
 #pragma mark - @class
 
 #pragma mark - 常量
 
 #pragma mark - 枚举
+
+@implementation CPDViewController
 
 #pragma mark - Life cycle
 

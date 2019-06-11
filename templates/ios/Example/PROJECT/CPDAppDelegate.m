@@ -7,12 +7,17 @@
 //
 
 #import "CPDAppDelegate.h"
+#import "CPDViewController.h"
 
 @implementation CPDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    CPDViewController *mainVC = [CPDViewController new];
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = mainVC;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
